@@ -8,7 +8,7 @@ um data lake consegue armazenar qualquer tipo de dado sendo eles estruturados ou
 Git seria uma ferramenta muito importante para o desenvolvimento de um projeto em equipe, já que ele permite modificar versões daquilo que foi desenvolvido, pois nele você pode criar branches e versioná-las.
 
 ## GITFLOW
-O que seria Gitflow? É a maneira como você gerencia as branches para ordenar as etapas do projeto e também seria uma boa prática pelo fato de deixar um projeto mais profissional. É um método muito importante e essencial para o desenvolvimento de um projeto. Através dele, podemos informar o que estamos fazendo através do histórico dentro do Git, onde podemos alterar e informar suas mudanças dentro de features (versões do programa) criadas de acordo com o que você está trabalhando. Por exemplo, uma equipe que está desenvolvendo um jogo: cada um deve criar uma feature (branch) com o nome do que está trabalhando e, assim que ele criar essa feature, deve informar a equipe através do campo chamado "projects" e selecionar como "in progress". Depois de finalizada, deve subir para a "development". Logo após a etapa de subir para a development, você deve excluir a branch que foi criada. E, após garantir que foi feito o pull request e a confirmação do merge para a develop, você deve subir para a release, garantindo que está tudo certo para subir para a main ou a master, que seria a branch principal."
+O que seria Gitflow? É a maneira como você gerencia as branches para ordenar as etapas do projeto e também seria uma boa prática pelo fato de deixar um projeto mais profissional.  mudanças dentro de features (versões do programa) criadas de acordo com o que você está trabalhÉ um método muito importante e essencial para o desenvolvimento de um projeto. Através dele, podemos informar o que estamos fazendo através do histórico dentro do Git, onde podemos alterar e informar suasando. Por exemplo, uma equipe que está desenvolvendo um jogo: cada um deve criar uma feature (branch) com o nome do que está trabalhando e, assim que ele criar essa feature, deve informar a equipe através do campo chamado "projects" e selecionar como "in progress". Depois de finalizada, deve subir para a "development". Logo após a etapa de subir para a development, você deve excluir a branch que foi criada. E, após garantir que foi feito o pull request e a confirmação do merge para a develop, você deve subir para a release, garantindo que está tudo certo para subir para a main ou a master, que seria a branch principal."
 
 
 
@@ -27,8 +27,26 @@ Qualidade dos Dados: Garantir que os dados sejam precisos, completos e livres de
 
 ## MODELAGEM DE DADOS 
 
-a modelagem de dados seria o processo de quando voce obtem varios tipos de dados sendo eles: semi-estruturados e nao estruturados então voce pode converte-los para dados estruturados para facilitar a realização de uma busca de dados, tambem conhecidas como as (queries) em nosso periodo da faculdade   usamos o programa POSTGRESQL que seria para banco de dados relacional que utiliza tabelas, linhas e colunas para armazenar dados. Ele segue a norma SQL e requerem um modelo de dados estruturado e normalizado, tambem dentro dele voce tem suporte para JSON: Embora seja um banco de dados relacional, PostgreSQL suporta tipos de dados JSON e JSONB, permitindo o armazenamento e a consulta de dados semiestruturados. que serve para fazer buscas(query).
-e para banco de dados NOSQL utilizamos o MONGODB que utiliza documentos no formato BSON (uma extensão binária de JSON) para armazenar dados. Cada documento pode ter uma estrutura diferente, oferecendo flexibilidade na modelagem de dados e por ele oferecer essa flexibilidade tem sua desvantagem tambem que seria para aplicações que requerem consistência de dados rigorosa ja que ele não é tão garantido quanto um banco de dado relacional.
-Sem Esquema Fixo: MongoDB não requer um esquema definido, permitindo que os documentos dentro da mesma coleção tenham estruturas diferentes.
-agora um exemplo de trabalho usando banco de dado relacional dentro do POSTGRESQL
-uma biblioteca precisa de um sistema de controle para saber quantidade de livros, seus generos,livros novos,preços. nesse caso usaremos da seguinte forma (SELECT * FROM livros WHERE ano > 1990 ) nesse exemplo ele usa o comando SELECT que seria selecionar e com o simbolo * indica que ele esta buscando todos os dados da tabela onde voce precisa e no caso usaria o comando WHERE,que serve para expecificar aonde voce quer fazer a busca então com o comando WHERE voce coloca o filtro ano que seria uma indicação que vc quer fazer uma busca por livros e o ano que voce quer.     
+
+A modelagem de dados é o processo de obter vários tipos de dados, sendo eles: semi-estruturados, estruturados e não estruturados, e modelá-los por etapas para se trabalhar de forma correta, já que o processo de modelagem de dados é composto pelas etapas de modelo conceitual, lógico e físico. Depois de obter as informações, você pode desenvolver modelos: lógico, físico ou conceitual, dependendo das necessidades da empresa que for armazená-los.
+
+MODELO CONCEITUAL - Essa é a etapa onde os dados são organizados em tabelas para se relacionarem, indicando sua cardinalidade, como por exemplo: 1:1, N:N, N:1 ou 1:N.
+. A cardinalidade depende de como essas tabelas se relacionam. Por exemplo, o ID serve para indicar um único valor, e, em outra tabela, uma PK (Primary Key) é convertida em uma chave estrangeira (Foreign Key - FK).
+
+MODELO LÓGICO - Esta etapa é praticamente uma conversão do modelo conceitual para o lógico. Depois da etapa do modelo conceitual, você poderá indicar o que seria chave secundária e sua cardinalidade.
+
+MODELO FÍSICO - Nessa etapa, você já pode classificar os itens da tabela, definindo se são variáveis do tipo: INT, DOUBLE, VARCHAR, TEXT, entre outros. Também pode fazer a manutenção usando comandos como os exemplos abaixo:
+
+ALTER TABLE Clientes
+
+RENAME COLUMN Telefone TO Telefone_Principal
+
+ALTER TABLE Clientes
+
+DROP COLUMN Telefone
+
+DOUBLE preço (10,2)   
+
+INT quantidade de livros(60)
+
+Nesse caso, estamos nos referindo a pequenos dados. Já quando se trata de uma empresa que necessita de mais espaço para armazenar um número muito grande de dados (Big Data), a empresa deve contratar um Data Lake ou até mesmo um Data Warehouse.
