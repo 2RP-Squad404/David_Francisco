@@ -1,14 +1,19 @@
-## ENGENHARIA DE DADOS
-sobre essa area podemos tirar uma conclusao que ela tem uma grande importancia para todas as empresas pelo fato de que um engenheiro de dados fica resposavel por coletar dados,segurança deles garantido que tudo esteja da maneira mais efiente e segura garantindo um armazenamento seguro. ele tambem é responsavel por trabalhar na infraestrutura que seriam a garantia de um bom sinal da rede,um bom software e a parte de harware.
-tambem esta presente na manuteção do sistema,amazenar grandes dados dentro de data lake ou data warehouse que seriam locais onde a empresa paga por esse serviço tendo custos de acordo com o que é necessario. 
-podemos ver tambem a importancia e a diferença entre data lake e data warehouse.
-um data lake consegue armazenar qualquer tipo de dado sendo eles estruturados ou nao, e tem um custo menor, ja um data warehouse ele só aceita dados estruturados,organizados que antes de serem armazenados eles passam por um filtro chamado ETL que servem para extrair dados de diferentes origens para ai sim poderem ser inseridos dentro do data warehouse e tambem seu custo é maior comparado ao data lake.
+## RELATÓRIO DE ESTUDOS
+## Nome do estagiário: David Francisco Vieira
+## Data: 13/08/2024
+
+## TEMA: ENGENHARIA DE DADOS
+essa area é responsável por coletar, garantir a segurança e armazenar dados de maneira eficiente. um engenheiro de dados também cuida da infraestrutura, garantia de um bom sinal de rede, software adequado e hardware funcional. Além disso, o engenheiro trabalha na manutenção do sistema e no armazenamento de grandes volumes de dados em data lakes ou data warehouses, que são serviços pagos pelas empresas conforme a necessidade. O data lake armazena qualquer tipo de dado, seja ele estruturado ou não, a um custo menor. Em contraste, o data warehouse aceita apenas dados estruturados, que passam por um processo de ETL que seria um filtro que cuida dos dados antes de serem armazenados, o que o torna mais caro.
+
+![Engenharia de dados](imagens/engenharia_de_dados.jpg) 
 
 ## GIT 
 Git seria uma ferramenta muito importante para o desenvolvimento de um projeto em equipe, já que ele permite modificar versões daquilo que foi desenvolvido, pois nele você pode criar branches e versioná-las.
 
+
+
 ## GITFLOW
-O que seria Gitflow? É a maneira como você gerencia as branches para ordenar as etapas do projeto e também seria uma boa prática pelo fato de deixar um projeto mais profissional.  mudanças dentro de features (versões do programa) criadas de acordo com o que você está trabalhÉ um método muito importante e essencial para o desenvolvimento de um projeto. Através dele, podemos informar o que estamos fazendo através do histórico dentro do Git, onde podemos alterar e informar suasando. Por exemplo, uma equipe que está desenvolvendo um jogo: cada um deve criar uma feature (branch) com o nome do que está trabalhando e, assim que ele criar essa feature, deve informar a equipe através do campo chamado "projects" e selecionar como "in progress". Depois de finalizada, deve subir para a "development". Logo após a etapa de subir para a development, você deve excluir a branch que foi criada. E, após garantir que foi feito o pull request e a confirmação do merge para a develop, você deve subir para a release, garantindo que está tudo certo para subir para a main ou a master, que seria a branch principal."
+O que seria Gitflow? É a maneira como você gerencia as branches para ordenar as etapas do projeto e também seria uma boa prática pelo fato de deixar um projeto mais profissional. mudanças dentro de features (versões do programa) criadas de acordo com o que você está trabalhando, um método muito importante e essencial para o desenvolvimento de um projeto. Através dele, podemos informar o que estamos fazendo através do histórico dentro do Git, onde podemos alterar e informar suasando. Por exemplo, uma equipe que está desenvolvendo um jogo: cada um deve criar uma feature (branch) com o nome do que está trabalhando e, assim que ele criar essa feature, deve informar a equipe através do campo chamado "projects" e selecionar como "in progress". Depois de finalizada, deve subir para a "development". Logo após a etapa de subir para a development, você deve excluir a branch que foi criada. E, após garantir que foi feito o pull request e a confirmação do merge para a develop, você deve subir para a release, garantindo que está tudo certo para subir para a main ou a master, que seria a branch principal."
 
 
 
@@ -50,3 +55,11 @@ DOUBLE preço (10,2)
 INT quantidade de livros(60)
 
 Nesse caso, estamos nos referindo a pequenos dados. Já quando se trata de uma empresa que necessita de mais espaço para armazenar um número muito grande de dados (Big Data), a empresa deve contratar um Data Lake ou até mesmo um Data Warehouse.
+
+## ANALÍTICO
+
+o termo analitico se refere a extrair dados importantes de um data lake ou data warehouse,gerar insighs e auxiliar em grandes decisões de uma empresa ja que esse processo tem como objetivo auxiliar engenheiros de dados,analistas,cientistas e empresarios.
+atraves desse processo envolvem algumas ferramentas como: OLAP,APACHE SPARK,GOOGLE BIG QUERY,AMAZON REDSHIFIT E MICROSOFT AZURE SYNAPSE ANALYTICS
+   
+
+OLAP - essa é uma ferramenta que serve para analisar dados obtidos de um data warehouse, ele serve para obter os minimos detalhes sobre dados de dentro de um data warehouse. 
