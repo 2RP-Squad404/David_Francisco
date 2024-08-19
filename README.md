@@ -122,3 +122,7 @@ Esse processo envolve o uso de algumas ferramentas, como: **olap, Apache Spark, 
 Azure Synapse permite a análise de dados relacionais e não relacionais de maneira integrada, unificando cargas de trabalho tradicionais de data warehousing com análise de big data.
 Além disso, o Azure Synapse oferece otimos recursos de segurança e privacidade dos dados, como criptografia, controle de acesso baseado em função, segurança em nível de coluna e linha, e integração com serviços de segurança do Azure para proteger dados sensíveis.
 
+
+OLAP - essa é uma ferramenta que serve para analisar dados obtidos de um data warehouse, ele serve para obter os minimos detalhes sobre dados de dentro de um data warehouse.
+ 
+
