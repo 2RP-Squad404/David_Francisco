@@ -1,12 +1,12 @@
 ## RELATÓRIO DE ESTUDOS
 ## Nome do estagiário: David Francisco Vieira
-## Data: 14/08/2024
+## Data: 19/08/2024
 
 **Módulos**  
-1. [**Engenharia de dados**](#introducao)
+1. [**Engenharia de dados**](#engenharia)
 2. [**Git**](#git)
-3. [**Big Data**](#bigdata)
-4. [**Modelagem de dados**](#modelodados)
+3. [**Big Data**](#BIGDATA)
+4. [**Modelagem de dados**](#modelagem)
 5. [**Banco de dados**](#database)
 6. [**Analitico**](#analítico)
 
@@ -106,4 +106,19 @@ Esse processo envolve o uso de algumas ferramentas, como: **olap, Apache Spark, 
 
 ### APACHE SPARK 
 
-- Ele é um framework open source que serve para fazer pesquisas de forma mais rápida, já que possui um grande poder de processamento e pode processar dados em tempo real. Isso se deve ao fato de ter sido desenvolvido com o intuito de trabalhar em cluster (conjunto de máquinas), permitindo a execução de várias tarefas ao mesmo tempo e lidando com big data. O Apache Spark também oferece suporte a diversas APIs em várias linguagens e a diferentes tipos de dados, como estruturados, semi-estruturados e não estruturados, além de processar grafos. Ele também é uma ferramenta que trabalha em conjunto com o Apache Hadoop.
+- Ele é um framework open source que serve para fazer pesquisas de forma mais rápida, já que possui um grande poder de processamento e pode processar dados em tempo real. Isso se deve ao fato de ter sido desenvolvido com o objetivo de trabalhar em cluster (conjunto de máquinas), permitindo a execução de várias tarefas ao mesmo tempo e lidando com big data. O Apache Spark também oferece suporte a diversas APIs em várias linguagens e a diferentes tipos de dados, como estruturados, semi-estruturados e não estruturados, além de processar grafos. Ele também é uma ferramenta que trabalha em conjunto com o Apache Hadoop.
+
+### GOOGLE BIG QUERY 
+
+- O BigQuery é uma ferramenta de big data do Google Cloud que oferece suporte à linguagem SQL. Ele pode ser usado como um data warehouse, armazenando diversos tipos de dados, como informações de redes sociais. Com capacidade de gerar análises em tempo real, o BigQuery fornece insights valiosos para a tomada de decisões empresariais, sugerindo e prevendo, por exemplo, os produtos mais pesquisados por usuários. Além disso, ele pode ser utilizado no setor de segurança ja que ele é uma ferramenta para analise de dados a nivel de usuario, analisando e modelando seu histórico e comportamento para prever possíveis ataques cibernéticos.
+
+### AMAZON REDSHIFT
+
+- Essa é uma ferramenta da Amazon voltada para análises, com suporte para data warehouse. Ela é um produto pronto, o que elimina a necessidade de criar máquinas. Trabalha de forma escalável, utilizando colunas em vez de tabelas e processamento paralelo para aproveitar todo o poder da máquina. Além disso, possui baixo custo e oferece backup contínuo, atualizando os backups conforme os dados são modificados. Também é compatível com PostgreSQL, permitindo que você utilize um drive com informações armazenadas no PostgreSQL.
+
+### AZURE SYNAPSE ANALYTICS
+
+- A proposta dessa ferramenta é acelerar a extração de insights importantes em tempo real a partir de big data, data warehousing e data lakes. Ela permite realizar buscas ilimitadas para análises de dados, fornecendo rapidamente insights a partir de todos os seus dados, utilizando o melhor da tecnologia SQL e outras linguagens de consulta.
+Azure Synapse permite a análise de dados relacionais e não relacionais de maneira integrada, unificando cargas de trabalho tradicionais de data warehousing com análise de big data.
+Além disso, o Azure Synapse oferece otimos recursos de segurança e privacidade dos dados, como criptografia, controle de acesso baseado em função, segurança em nível de coluna e linha, e integração com serviços de segurança do Azure para proteger dados sensíveis.
+
