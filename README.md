@@ -62,4 +62,5 @@ o termo analitico se refere a extrair dados importantes de um data lake ou data 
 atraves desse processo envolvem algumas ferramentas como: OLAP,APACHE SPARK,GOOGLE BIG QUERY,AMAZON REDSHIFIT E MICROSOFT AZURE SYNAPSE ANALYTICS
    
 
-OLAP - essa é uma ferramenta que serve para analisar dados obtidos de um data warehouse, ele serve para obter os minimos detalhes sobre dados de dentro de um data warehouse. 
+OLAP - essa é uma ferramenta que serve para analisar dados obtidos de um data warehouse, ele serve para obter os minimos detalhes sobre dados de dentro de um data warehouse.
+ 
